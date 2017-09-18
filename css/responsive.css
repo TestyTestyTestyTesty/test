@@ -55,6 +55,9 @@
         font-size:2rem;
         line-height:2.5rem;
     }
+    #navigation{
+        padding: 10px 0;
+    }
     #nowosci h2{
         font-size:3rem;
         line-height: 3rem;
