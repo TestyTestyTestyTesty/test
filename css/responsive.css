@@ -41,6 +41,9 @@
 }
 
 @media(max-width: 480px){
+    #navigation{
+        padding: 10px 15px;
+    }
     .carousel-caption h2{
         font-size:2rem;
         line-height:2.2rem;
@@ -55,9 +58,7 @@
         font-size:2rem;
         line-height:2.5rem;
     }
-    #navigation{
-        padding: 10px 0;
-    }
+
     #nowosci h2{
         font-size:3rem;
         line-height: 3rem;
