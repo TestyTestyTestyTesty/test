@@ -1,0 +1,66 @@
+@media(min-width:1200px){
+    .carousel-caption h2{
+        font-size:7rem;
+        line-height:10rem;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .carousel-caption h2{
+        font-size:5rem;
+        line-height:5rem;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .carousel-caption h2{
+        font-size:4rem;
+        line-height:5rem;
+    }
+}
+@media(max-width:767px){
+    .carousel-caption h2{
+        font-size:3rem;
+        line-height:4rem;
+    }
+    .carousel-caption p{
+        font-size: 1.5rem;
+    }
+    .navbar-inverse .navbar-nav{
+        text-align: center;
+        margin:10px 20% 0;
+    }
+    #logo{
+        margin-left: 30px;
+    }
+    .kursy{
+        text-align: center;
+    }
+    .panel-body{
+        text-align:left;
+    }
+
+}
+
+@media(max-width: 480px){
+    .carousel-caption h2{
+        font-size:2rem;
+        line-height:2.2rem;
+    }
+    .carousel-caption p{
+        font-size:1.5rem;
+        line-height:2rem;
+    }
+    .carousel-caption{
+        top:5%;
+        bottom:auto;
+        font-size:2rem;
+        line-height:2.5rem;
+    }
+    #nowosci h2{
+        font-size:3rem;
+        line-height: 3rem;
+    }
+        #nowosci p{
+
+        font-size: 1.5rem;
+        }
+}
