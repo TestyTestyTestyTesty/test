@@ -1,12 +1,12 @@
-@media(min-width:1200px){
+@media(min-width:1200px) {
     /*
     ---------------------------------------------------------------------------------------------
                                                 Karuzela
     ---------------------------------------------------------------------------------------------
     */
-    .carousel-caption h2{
-        font-size:7rem;
-        line-height:10rem;
+    .carousel-caption h2 {
+        font-size: 7rem;
+        line-height: 10rem;
     }
     #navigation {
         padding: 25px;
@@ -16,18 +16,18 @@
                                                 Grafiki
     ---------------------------------------------------------------------------------------------
     */
-    .grafika{
-        width:31%;
-        margin:0 10px 50px;
+    .grafika {
+        width: 31%;
+        margin: 0 10px 50px;
     }
     /*
     ---------------------------------------------------------------------------------------------
                                                 Statsy
     ---------------------------------------------------------------------------------------------
     */
-    .stats{
-        width:23%;
-        margin:3rem 1%;
+    .stats {
+        width: 23%;
+        margin: 3rem 1%;
         padding: 2.5rem;
     }
     .vertical-align {
@@ -39,19 +39,20 @@
                                                 Promocje
     ---------------------------------------------------------------------------------------------
     */
-    #Promocje h3{
-    margin-bottom: 4rem;
+    #Promocje h3 {
+        margin-bottom: 4rem;
     }
 }
-@media(min-width:992px) and (max-width:1199px){
+
+@media(min-width:992px) and (max-width:1199px) {
     /*
     ---------------------------------------------------------------------------------------------
                                                 Karuzela
     ---------------------------------------------------------------------------------------------
     */
-    .carousel-caption h2{
-        font-size:5rem;
-        line-height:5rem;
+    .carousel-caption h2 {
+        font-size: 5rem;
+        line-height: 5rem;
     }
     #navigation {
         padding: 20px;
@@ -61,18 +62,18 @@
                                                 Grafiki
     ---------------------------------------------------------------------------------------------
     */
-    .grafika{
-        width:31%;
-        margin:0 10px 50px;
+    .grafika {
+        width: 31%;
+        margin: 0 10px 50px;
     }
     /*
     ---------------------------------------------------------------------------------------------
                                                 Statsy
     ---------------------------------------------------------------------------------------------
     */
-    .stats{
-        width:23%;
-        margin:3rem 1%;
+    .stats {
+        width: 23%;
+        margin: 3rem 1%;
         padding: 2.5rem;
     }
     .vertical-align {
@@ -84,21 +85,22 @@
                                                 Promocje
     ---------------------------------------------------------------------------------------------
     */
-    #Promocje h3{
-    margin-bottom: 4rem;
+    #Promocje h3 {
+        margin-bottom: 4rem;
     }
 }
 
 }
-@media(min-width:768px) and (max-width:991px){
+
+@media(min-width:768px) and (max-width:991px) {
     /*
     ---------------------------------------------------------------------------------------------
                                                 Karuzela
     ---------------------------------------------------------------------------------------------
     */
-    .carousel-caption h2{
-        font-size:3rem;
-        line-height:3.5rem;
+    .carousel-caption h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
     }
     #navigation {
         padding: 15px;
@@ -108,7 +110,7 @@
                                                 Grafiki
     ---------------------------------------------------------------------------------------------
     */
-    .grafika{
+    .grafika {
         margin-bottom: 50px;
     }
     /*
@@ -116,21 +118,21 @@
                                                 Statsy
     ---------------------------------------------------------------------------------------------
     */
-    .firma{
+    .firma {
         text-align: center;
         margin-bottom: -15px;
     }
-    .firma h3{
+    .firma h3 {
         font-size: 3rem;
         line-height: 3.4rem;
     }
-    .stats{
-        width:48%;
-        margin:3rem 1%;
+    .stats {
+        width: 48%;
+        margin: 3rem 1%;
         padding: 2.5rem;
     }
-    .stats:last-child{
-        width:98%;
+    .stats:last-child {
+        width: 98%;
         margin-top: -2rem;
     }
     /*
@@ -138,12 +140,12 @@
                                                 Kontakt
     ---------------------------------------------------------------------------------------------
     */
-    #Kontakt h2:first-child{
+    #Kontakt h2:first-child {
         text-align: center;
         font-size: 4rem;
-        margin-bottom:4rem;
+        margin-bottom: 4rem;
     }
-    #number{
+    #number {
         font-size: 3.8rem;
         text-align: center;
     }
@@ -152,21 +154,22 @@
                                                 Promocje
     ---------------------------------------------------------------------------------------------
     */
-    #Promocje h3{
-    margin-bottom: 4rem;
+    #Promocje h3 {
+        margin-bottom: 4rem;
     }
 }
-@media(max-width:767px){
+
+@media(max-width:767px) {
     /*
     ---------------------------------------------------------------------------------------------
                                                 Karuzela
     ---------------------------------------------------------------------------------------------
     */
-    .carousel-caption h2{
-        font-size:3rem;
-        line-height:4rem;
+    .carousel-caption h2 {
+        font-size: 3rem;
+        line-height: 4rem;
     }
-    .carousel-caption p{
+    .carousel-caption p {
         font-size: 1.5rem;
     }
     /*
@@ -174,11 +177,11 @@
                                                 Nawigacje
     ---------------------------------------------------------------------------------------------
     */
-    .navbar-inverse .navbar-nav{
+    .navbar-inverse .navbar-nav {
         text-align: center;
-        margin:10px 20% 0;
+        margin: 10px 20% 0;
     }
-    #logo{
+    #logo {
         margin-left: 30px;
     }
     /*
@@ -186,7 +189,7 @@
                                                 Modalne
     ---------------------------------------------------------------------------------------------
     */
-    .kursy{
+    .kursy {
         text-align: center;
     }
     /*
@@ -194,7 +197,7 @@
                                                 Grafiki
     ---------------------------------------------------------------------------------------------
     */
-    .grafika{
+    .grafika {
         margin-bottom: 50px;
     }
     /*
@@ -202,7 +205,7 @@
                                                 Statsy
     ---------------------------------------------------------------------------------------------
     */
-    .firma{
+    .firma {
         text-align: center;
     }
     /*
@@ -210,7 +213,7 @@
                                                 Zespol
     ---------------------------------------------------------------------------------------------
     */
-    #Zespol h2{
+    #Zespol h2 {
         font-size: 3rem;
         line-height: 3.5rem;
     }
@@ -219,8 +222,7 @@
                                                 Wspolpracownicy
     ---------------------------------------------------------------------------------------------
     */
-
-    #Wspolpracownicy h2{
+    #Wspolpracownicy h2 {
         font-size: 3rem;
     }
     /*
@@ -237,61 +239,59 @@
                                                 Kontakt
     ---------------------------------------------------------------------------------------------
     */
-    #Kontakt h2{
+    #Kontakt h2 {
         text-align: center;
         font-size: 4rem;
     }
-
 }
 
-@media(max-width: 480px){
+@media(max-width: 480px) {
     /*
     ---------------------------------------------------------------------------------------------
                                                 Karuzela
     ---------------------------------------------------------------------------------------------
     */
-    .carousel-caption h2{
-        font-size:2rem;
-        line-height:2.2rem;
+    .carousel-caption h2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
     }
-    .carousel-caption p{
-        font-size:1.5rem;
-        line-height:2rem;
+    .carousel-caption p {
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
-    .carousel-caption{
-        top:5%;
-        bottom:auto;
-        font-size:2rem;
-        line-height:2.5rem;
+    .carousel-caption {
+        top: 5%;
+        bottom: auto;
+        font-size: 2rem;
+        line-height: 2.5rem;
     }
     /*
     ---------------------------------------------------------------------------------------------
                                                 Nowosci
     ---------------------------------------------------------------------------------------------
     */
-    .nowosci h2{
-        font-size:3rem;
+    .nowosci h2 {
+        font-size: 3rem;
         line-height: 3rem;
     }
-    .nowosci p{
+    .nowosci p {
         font-size: 2rem;
-
     }
-
 }
-@media(max-width: 450px){
+
+@media(max-width: 450px) {
     /*
     ---------------------------------------------------------------------------------------------
                                                 Footer
     ---------------------------------------------------------------------------------------------
     */
-    footer h5{
+    footer h5 {
         font-size: 1.5rem;
     }
-    footer img{
-        width:35px;
+    footer img {
+        width: 35px;
     }
-    .social{
+    .social {
         padding: 0;
     }
 }
