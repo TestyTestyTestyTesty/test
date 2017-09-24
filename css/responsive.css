@@ -260,6 +260,7 @@
         font-size: 2rem;
         font-weight: 500;
         letter-spacing: 0.5rem;
+        line-height: 2rem;
     }
     .carousel-caption p {
         font-size: 1.5rem;
@@ -270,7 +271,7 @@
         bottom: auto;
     }
     #navigation {
-        padding: 30px;
+        padding: 15px;
     }
 
     /*
