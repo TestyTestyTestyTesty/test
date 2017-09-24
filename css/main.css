@@ -121,13 +121,6 @@ h4 {
     bottom: auto;
 }
 
-.carousel-caption h2 {
-    font-size: 8rem;
-    font-weight: 600;
-    letter-spacing: 0.5rem;
-    line-height: 10rem;
-}
-
 .carousel-caption p {
     font-size: 2rem;
 }

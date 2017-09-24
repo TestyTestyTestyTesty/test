@@ -5,7 +5,9 @@
     ---------------------------------------------------------------------------------------------
     */
     .carousel-caption h2 {
-        font-size: 7rem;
+        font-size: 8rem;
+        font-weight: 600;
+        letter-spacing: 0.5rem;
         line-height: 10rem;
     }
     #navigation {
@@ -52,7 +54,8 @@
     */
     .carousel-caption h2 {
         font-size: 5rem;
-        line-height: 5rem;
+        font-weight: 500;
+        letter-spacing: 0.5rem;
     }
     #navigation {
         padding: 20px;
