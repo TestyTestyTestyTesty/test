@@ -355,7 +355,11 @@ footer h5{
 }
 footer img{
     width:40px;
+
 }
 .list-inline{
     float: right;
+}
+.list-inline>li{
+    padding-right:0;
 }
