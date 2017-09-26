@@ -5,10 +5,14 @@
     ---------------------------------------------------------------------------------------------
     */
     .carousel-caption h2 {
-        font-size: 8rem;
+        font-size: 6rem;
         font-weight: 600;
         letter-spacing: 0.5rem;
-        line-height: 10rem;
+        line-height: 8rem;
+    }
+    .carousel-caption {
+        top: 20%;
+        bottom: auto;
     }
     #navigation {
         padding: 25px;
@@ -44,6 +48,17 @@
     #Promocje h3 {
         margin-bottom: 4rem;
     }
+    /*
+    ---------------------------------------------------------------------------------------------
+                                                Footer
+    ---------------------------------------------------------------------------------------------
+    */
+    .footer-skew{
+        margin-top:80px;
+    }
+    .list-inline{
+        float: right;
+    }
 }
 
 @media(min-width:992px) and (max-width:1199px) {
@@ -57,8 +72,12 @@
         font-weight: 500;
         letter-spacing: 0.5rem;
     }
+    .carousel-caption {
+        top: 20%;
+        bottom: auto;
+    }
     #navigation {
-        padding: 20px;
+        padding: 15px;
     }
     /*
     ---------------------------------------------------------------------------------------------
@@ -91,7 +110,18 @@
     #Promocje h3 {
         margin-bottom: 4rem;
     }
-}
+    /*
+    ---------------------------------------------------------------------------------------------
+                                                Footer
+    ---------------------------------------------------------------------------------------------
+    */
+    .footer-skew{
+        margin-top:40px;
+    }
+    .list-inline{
+        float: right;
+    }
+
 
 }
 
@@ -105,6 +135,11 @@
         font-size: 3rem;
         font-weight: 500;
         letter-spacing: 0.5rem;
+        line-height: 3.5rem;
+    }
+    .carousel-caption {
+        top: 20%;
+        bottom: auto;
     }
     #navigation {
         padding: 15px;
@@ -161,6 +196,17 @@
     #Promocje h3 {
         margin-bottom: 4rem;
     }
+    /*
+    ---------------------------------------------------------------------------------------------
+                                                Footer
+    ---------------------------------------------------------------------------------------------
+    */
+    .footer-skew{
+        margin-top:50px;
+    }
+    .list-inline{
+        float: right;
+    }
 }
 
 @media(max-width:767px) {
@@ -170,9 +216,14 @@
     ---------------------------------------------------------------------------------------------
     */
     .carousel-caption h2 {
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 500;
         letter-spacing: 0.5rem;
+        line-height: 3rem;
+    }
+    .carousel-caption {
+        top: 18%;
+        bottom: auto;
     }
     .carousel-caption p {
         font-size: 1.5rem;
@@ -188,6 +239,9 @@
     }
     #logo {
         margin-left: 30px;
+    }
+    #navigation {
+        padding: 15px;
     }
     /*
     ---------------------------------------------------------------------------------------------
@@ -248,6 +302,20 @@
         text-align: center;
         font-size: 4rem;
     }
+    /*
+    ---------------------------------------------------------------------------------------------
+                                                Footer
+    ---------------------------------------------------------------------------------------------
+    */
+    .footer-skew{
+        margin-top:80px;
+    }
+    .footer-text, .footer-icons{
+        text-align: center;
+    }
+    .footer-icons{
+        padding:0;
+    }
 }
 
 @media(max-width: 480px) {
@@ -256,6 +324,14 @@
                                                 Karuzela
     ---------------------------------------------------------------------------------------------
     */
+    .carousel{
+        position:relative;
+        top:25px;
+    }
+    .carousel-caption {
+        top: 5%;
+        bottom: auto;
+    }
     .carousel-caption h2 {
         font-size: 1.8rem;
         font-weight: 500;
@@ -266,10 +342,7 @@
         font-size: 1.5rem;
         line-height: 2rem;
     }
-    .carousel-caption {
-        top: 2%;
-        bottom: auto;
-    }
+
     #navigation {
         padding: 15px;
     }
@@ -288,19 +361,20 @@
     }
 }
 
-@media(max-width: 450px) {
+@media(max-width: 360px) {
     /*
     ---------------------------------------------------------------------------------------------
-                                                Footer
+                                                Karuzela
     ---------------------------------------------------------------------------------------------
     */
-    footer h5 {
-        font-size: 1.5rem;
+    .carousel-caption h2{
+        font-size:1.5rem;
+        line-height: 2rem;
     }
-    footer img {
-        width: 35px;
-    }
-    .social {
-        padding: 0;
+    .carousel-caption {
+        top: -25px;
+        bottom: auto;
+        margin-left:-20px;
+        margin-right:-20px;
     }
 }

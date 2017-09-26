@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
 </head>
 
 <body>
@@ -213,11 +215,11 @@
         </div>
         <div class="container">
             <div class="row">
-                <ul class="nav nav-tabs buttony" role="tablist">
-                    <a class="btn btn-default" href="#lektorzy" aria-controls="lektorzy" role="tab" data-toggle="tab" role="button">Lektorzy</a>
-                    <a class="btn btn-default" href="#obsluga" aria-controls="obsluga" role="tab" data-toggle="tab" role="button">Obsługa klienta</a>
-                    <a class="btn btn-default" href="#zarzad" aria-controls="zarzad" role="tab" data-toggle="tab" role="button">Zarząd</a>
-                </ul>
+                    <ul class="nav nav-pills buttony" role="tablist">
+                        <li class="active"><a class="btn btn-default" href="#lektorzy" aria-controls="lektorzy" role="tab" data-toggle="tab" role="button">Lektorzy</a></li>
+                        <li><a class="btn btn-default" href="#obsluga" aria-controls="obsluga" role="tab" data-toggle="tab" role="button">Obsługa klienta</a></li>
+                        <li><a class="btn btn-default" href="#zarzad" aria-controls="zarzad" role="tab" data-toggle="tab" role="button">Zarząd</a></li>
+                    </ul>
             </div>
             <div class="tab-content row">
                 <div role="tabpanel" class="tab-pane active col-lg-12 col-md-12 col-sm-12 col-xs-12" id="lektorzy">
@@ -429,8 +431,8 @@
                 <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-                    <img src="images/promocja_01.png" alt="tablet" class="img-responsive animated fadeInLeft">
+                <div class="tablet-animate col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-6 col-xs-offset-3">
+                    <img src="images/promocja_01.png" alt="tablet" class="img-responsive">
                 </div>
                 <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-7 col-sm-offset-0 col-xs-10 col-xs-offset-1">
                     <h4 class="text-center">Kurs na prezent</h4>
@@ -486,19 +488,18 @@
             </div>
         </div>
     </section>
-    <hr>
     <!--######################
             Footer
     #######################-->
-    <footer>
-        <div class="container-fluid">
+    <footer class="footer-skew">
+        <div class="footer-content container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-9 col-md-3 col-sm-3 col-xs-5 social">
+                    <div class="col-lg-9 col-md-3 col-sm-3 col-xs-12 footer-text">
                         <h5>&copy 2017 by Me</h5>
                     </div>
-                    <div class="col-lg-3 col-md-9 col-sm-9 col-xs-7 social">
-                        <ul class="list-unstyled list-inline">
+                    <div class="col-lg-3 col-md-9 col-sm-9 col-xs-12 footer-icons">
+                        <ul class="footer-img list-unstyled list-inline">
                             <li><a href="#"><img src="icons/vimeo.png" alt="vimeo" class="img-responsive"></a></li>
                             <li><a href="#"><img src="icons/facebook.png" alt="facebook" class="img-responsive"></a></li>
                             <li><a href="#"><img src="icons/twitter.png" alt="twitter" class="img-responsive"></a></li>
@@ -513,7 +514,11 @@
     <!--######################
             skrypty
     #######################-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous">
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function() {
@@ -556,6 +561,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     <script>
         baguetteBox.run('.tz-gallery');
+    </script>
+
+    <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.tablet-animate', {
+        duration: 1500,
+        origin:'left',
+        distance:'300px',
+        viewFactor: 0.2
+    });
     </script>
 
 </body>
