@@ -524,6 +524,7 @@
       crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- scroll to menu -->    
     <script>
         $(document).ready(function() {
             // Add scrollspy to <body>
@@ -555,18 +556,19 @@
             });
         });
     </script>
+
     <script>
         $('#myTabs a').click(function(e) {
             e.preventDefault()
             $(this).tab('show')
         })
     </script>
-
+    <!-- gallery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     <script>
         baguetteBox.run('.tz-gallery');
     </script>
-
+    <!-- scroll reveal animation-->
     <script>
     window.sr = ScrollReveal();
     sr.reveal('.tablet-animate', {
@@ -576,7 +578,14 @@
         viewFactor: 0.2
     });
     </script>
-
+    <!-- closing menu on mobile -->
+    <script>
+        $(document).on('click.nav','.navbar-collapse.in',function(e) {
+            if( $(e.target).is('a') ) {
+                $(this).removeClass('in').addClass('collapse');
+        }
+    });
+    </script>
 </body>
 
 </html>
