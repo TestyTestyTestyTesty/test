@@ -252,7 +252,10 @@ small {
 .buttony {
     margin-bottom: 2.5rem;
 }
-
+.buttony-center{
+    display: flex;
+    justify-content: center;
+}
 #Zespol .glyphicon {
     color: #2c3e50;
 }
